@@ -15,7 +15,7 @@ const patients = [
 
 // GEMINI API Configuration
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent';
-const GEMINI_API_KEY = 'AIzaSyDa_sxDhZW3Hg0pYZqZ6uTvIPGzjaxggiQ';
+const GEMINI_API_KEY = 'your api key';
 
 // 1. Patient Login Endpoint
 app.post('/api/patient/login', (req, res) => {
